@@ -2,8 +2,8 @@ from django.db.models import ExpressionWrapper, FloatField, F
 from django.shortcuts import render
 from rest_framework import generics, authentication, permissions, status, serializers
 from rest_framework.response import Response
-from .models import Fishery
-from .serializer import FisherySerializer, FisheryLocationFilterSerializer
+from .models import Fishery, Picture
+from .serializer import FisherySerializer, FisheryLocationFilterSerializer, PictureSerializer
 
 # Create your views here.
 class CreateFisheryView(generics.CreateAPIView): #dodawanie lowsika
@@ -25,3 +25,10 @@ class FisheryList(generics.ListAPIView):
 
     def get_queryset(self):
         return Fishery.objects.filter(status='Accepted')
+
+
+class PicturesList(generics.ListAPIView):
+    serializer_class = PictureSerializer
+
+    def get_queryset(self):
+        return Picture.objects.all()

@@ -16,5 +16,16 @@ class FisheryAdmin(admin.ModelAdmin):
         "status"
     )
 
+class FisheryPictureAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'title',
+        'description',
+        'date_added',
+        'user_added',
+        'fishery',
+    )
+
 
 admin.site.register(models.Fishery, FisheryAdmin)
+admin.site.register(models.Picture, FisheryPictureAdmin)
