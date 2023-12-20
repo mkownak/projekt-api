@@ -31,7 +31,7 @@ class FisheryLocationFilterSerializer(serializers.Serializer):
 class PictureSerializer(serializers.ModelSerializer):
     user_added = UserSerializer(read_only=True)
     date_added = serializers.DateField(read_only=True, format='%d %B %Y')
-
+    fishery = serializers.StringRelatedField()
     class Meta:
         model = models.Picture
         fields = (
