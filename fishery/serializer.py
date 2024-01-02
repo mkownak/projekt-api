@@ -24,14 +24,13 @@ class FisherySerializer(serializers.ModelSerializer):
 
 
 class FisheryLocationFilterSerializer(serializers.Serializer):
-    user_lat = serializers.FloatField(required=False)
-    user_lon = serializers.FloatField(required=False)
-    max_radius = serializers.IntegerField(required=False)
+    user_lat = serializers.FloatField()
+    user_lon = serializers.FloatField()
+    max_radius = serializers.IntegerField()
 
 class PictureSerializer(serializers.ModelSerializer):
     user_added = UserSerializer(read_only=True)
     date_added = serializers.DateField(read_only=True, format='%d %B %Y')
-    fishery = serializers.StringRelatedField()
     class Meta:
         model = models.Picture
         fields = (

@@ -1,7 +1,7 @@
 1.Dodawanie łowisk przez użytkownika X
 2.Moderowanie dodanych łowisk X
 3.Wyszukiwanie najbliższych łowisk na podstawie lokalizacji
-4.Dodawanie zdjęć do łowisk
+4.Dodawanie zdjęć do łowisk X
 5.Kalendarz faz księżyca
 6.Prognoza pogody
 7.Wiadomości między użytkownikami X
