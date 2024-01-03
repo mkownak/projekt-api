@@ -5,3 +5,5 @@
 5.Kalendarz faz księżyca
 6.Prognoza pogody
 7.Wiadomości między użytkownikami X
+
+https://github.com/hevalhazalkurt/codewars_python_solutions/blob/master/8kyuKatas/Polish_alphabet.md
