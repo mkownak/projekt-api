@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'user',
     'fishery',
     'messenger',
+    'weatherapi',
 ]
 
 MIDDLEWARE = [
