@@ -3,6 +3,7 @@ from . import models
 
 # Register your models here.
 
+
 class FisheryAdmin(admin.ModelAdmin):
     list_display = (
         "id",
@@ -15,6 +16,7 @@ class FisheryAdmin(admin.ModelAdmin):
         "user_added",
         "status"
     )
+
 
 class FisheryPictureAdmin(admin.ModelAdmin):
     list_display = (

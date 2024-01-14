@@ -1,9 +1,9 @@
 1.Dodawanie łowisk przez użytkownika X
 2.Moderowanie dodanych łowisk X
-3.Wyszukiwanie najbliższych łowisk na podstawie lokalizacji
+3.Wyszukiwanie najbliższych łowisk na podstawie lokalizacji X
 4.Dodawanie zdjęć do łowisk X
-5.Kalendarz faz księżyca
-6.Prognoza pogody
+5.Kalendarz faz księżyca X
+6.Prognoza pogody X
 7.Wiadomości między użytkownikami X
 
-https://github.com/hevalhazalkurt/codewars_python_solutions/blob/master/8kyuKatas/Polish_alphabet.md
+

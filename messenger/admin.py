@@ -3,7 +3,8 @@ from . import models
 
 # Register your models here.
 
-class MessagerAdmin(admin.ModelAdmin):
+
+class MessegnerAdmin(admin.ModelAdmin):
     list_display = (
         "id",
         "sender",
@@ -14,4 +15,4 @@ class MessagerAdmin(admin.ModelAdmin):
     )
 
 
-admin.site.register(models.Message, MessagerAdmin)
+admin.site.register(models.Message, MessegnerAdmin)

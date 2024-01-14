@@ -4,7 +4,6 @@ from .views import CreateFisheryView, FisheryList, PicturesList, CreatePictureVi
 app_name = 'fishery'
 
 urlpatterns = [
-    # ... inne URL-e
     path('create/', CreateFisheryView.as_view(), name='fishery-create'),
     path('found/', FisheryList.as_view(), name='fishery-list'),
     path('<int:pk>/pictures/', PicturesList.as_view(), name='fishery-list-pictures'),
